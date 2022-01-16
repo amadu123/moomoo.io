@@ -1,5 +1,4 @@
 
-
 var visuals = true;
 
 //set true/false for yes/no visuals
@@ -2524,8 +2523,8 @@ document.getElementById("mainMenu")), ue = document.getElementById("enterGame"),
        }
        var at = document.getElementById("featuredYoutube")
        , ot = [{
-           name: "FZ Broadcasts",
-           link: "https://www.youtube.com/channel/UCfPlaEXq5BWJQzRwr5Qywwg?sub_confirmation=1"
+           name: "hackPD site",
+           link: "https://sites.google.com/view/moohack/home?authuser=0"
        }]
        , ct = ot[s.randInt(0, ot.length - 1)];
        at.innerHTML = "<a target='_blank' class='ytLink' href='" + ct.link + "'><i class='material-icons' style='vertical-align: top;'>&#xE064;</i> " + ct.name + "</a>";
@@ -7368,9 +7367,9 @@ document.getElementById("mainMenu")), ue = document.getElementById("enterGame"),
        document.getElementById('menu').style.left = "1%";
        document.getElementById('menu').style.top = "1%";
        document.getElementById('menu').style.backgroundColor='rgb(0,0,0,.3)'
-       document.getElementById('menu').style.color = '#ffffff'
+       document.getElementById('menu').style.color = '#0000FF'
        document.getElementById('menu').innerHTML =
-           `<h3 style="font-size: 20px;" class = "indent">-- Quasar Beta --</h3>`
+           `<h3 style="font-size: 20px;" class = "indent"> mod menu</h3>`
        let cursorDisplay = document.createElement("div");
        cursorDisplay.id = "test"
        document.body.prepend(cursorDisplay);
@@ -7415,14 +7414,7 @@ document.getElementById("mainMenu")), ue = document.getElementById("enterGame"),
 <label class = "indent">Quad Trap<input type = "checkbox" id = "quad-trap"><br>
 <label class = "indent">Quad Spawnpad<input type = "checkbox" id = "quad-spawn"><br>
 <label class = "indent">Quad Tele<input type = "checkbox" id = "quad-tele"><br>
-<h2 style="font-size: 15px;">_____________________________________________</h2>
-<label class = "indent">Freeze<input type = "checkbox" id = "freeze"><br>
-<h2 style="font-size: 17px;">Ã¢ â‚¬Song Keybinds</h2>
-<label class = "indent">Take Over = ";"
-<label class = "indent">Subway Sexists = "-"
-<label class = "indent">Warriors = "="
-<label class = "indent">Legends Never Die = "'"
-<label class = "indent">Shooting Stars = "]"
+<h2 style="font-size: 15px;">mod menu ny FZ not by the makers of PD mod</h2>
 <br>
 `;//
        document.getElementById('test').style.overflowY='scroll';
